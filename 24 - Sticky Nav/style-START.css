@@ -73,6 +73,10 @@ li.logo {
   font-weight: 600;
   font-size: 30px;
 }
+.fix-nav li.logo{
+  max-width: 500px;
+  
+} 
 
 li.logo a {
   color: black;
@@ -86,3 +90,8 @@ nav a {
   transition: all 0.2s;
   text-transform: uppercase;
 }
+
+body.fix-nav nav{
+  position: fixed;
+}
+
